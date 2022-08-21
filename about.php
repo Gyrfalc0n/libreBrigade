@@ -1,22 +1,12 @@
 <?php
-
-  # project: eBrigade
-  # homepage: https://ebrigade.app
-  # version: 5.3
-
-  # Copyright (C) 2004, 2021 Nicolas MARCHE (eBrigade Technologies)
-  # This program is free software; you can redistribute it and/or modify
-  # it under the terms of the GNU General Public License as published by
-  # the Free Software Foundation; either version 2 of the License, or
-  # (at your option) any later version.
-  #
-  # This program is distributed in the hope that it will be useful,
-  # but WITHOUT ANY WARRANTY; without even the implied warranty of
-  # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-  # GNU General Public License for more details.
-  # You should have received a copy of the GNU General Public License
-  # along with this program; if not, write to the Free Software
-  # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+/**
+ * @package     libreBrigade
+ * @author      Nicolas MARCHE (eBrigade Technologies)
+ * @author      Benjamin Balga
+ * @copyright   (C) 2004, 2021 Nicolas MARCHE (eBrigade Technologies)
+ * @copyright   (C) 2022 - Benjamin Balga
+ * @license     See LICENSE file
+ */
 
 include_once ("config.php");
 check_all(0);
@@ -76,15 +66,12 @@ if ($tab == 3) {
     //echo "<div align=left style='margin-left:15px;'>";
     echo "<div class='container-fluid' align=center style='display:inline-block'>";
     echo "<div class='col-sm-12' align=center><div class='card hide card-default graycarddefault' align=center>";
-    if ($application_title <> 'eBrigade') 
+    if ($application_title <> 'libreBrigade') 
         echo "<h1>".$application_title."</h1>
-            <p> Est une application de $cisname, utilisant le projet opensource eBrigade";
+            <p> Est une application de $cisname, utilisant le projet opensource libreBrigade";
     if ( $patch_version <> '' ) $version = $patch_version;
-    echo "<p><b>eBrigade $version 
-        <br>Développée et distribuée par eBrigade Technologies
-        <br>Copyright <i class='fa fa-copyright'></i> 2004-2021 Nicolas MARCHE (eBrigade Technologies)</b> 
-        <p><a href='".$website."' target =_blank>".$website."</a>
-        +33 (0)1 84 25 26 63 <a href='mailto:contact@ebrigade.app'>contact@ebrigade.app</a>";
+    echo "<p><b>libreBrigade $version
+        <p><a href='".$website."' target =_blank>".$website."</a>";
     
     echo "</div>";
     
