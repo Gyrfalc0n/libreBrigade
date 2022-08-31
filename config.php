@@ -428,5 +428,6 @@ $starttime = get_time();
 //-----------------------------------------------------
 // Download url
 //-----------------------------------------------------
-$download_url = "https://download.ebrigade.org/";
+//$download_url = "https://download.ebrigade.org/";
 //$download_url = "http://localhost/ebrigade/download/";
+$download_url = "";
