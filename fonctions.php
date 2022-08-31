@@ -540,7 +540,7 @@ function create_session($P_ID, $mode='default') {
 
     $_SESSION['TOOLTIP'] = isset($user_preferences['1']) ? $user_preferences['1'] : 1;
     $_SESSION['LANGUE'] = isset($user_preferences['2']) ? $user_preferences['2'] : 'FR';
-    $_SESSION['sectionorder'] = isset($user_preferences['4']) ? $user_preferences['4'] : 'alphabetique';
+    $_SESSION['sectionorder'] = isset($user_preferences['4']) ? $user_preferences['4'] : 'hierarchique';
     $_SESSION['TIMEZONE'] = $user_preferences['5'];
 
     unset_permissions();

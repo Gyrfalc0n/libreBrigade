@@ -55,7 +55,7 @@ if ( $pid <> $id ) {
 $user_preferences=[];
 $user_preferences['1']= 1;
 $user_preferences['2']='FR';
-$user_preferences['4']='alphabetique';
+$user_preferences['4']='hierarchique';
 $user_preferences['3']=$P_FAVORITE_SECTION;
 
 for($i = 10; $i <= 14; $i++) {
