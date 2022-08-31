@@ -227,7 +227,7 @@ $communityurl="https://community.".$websitename;
 
 // taille max des mails ou SMS
 $maxchar_sms=160;
-$maxchar_mail=1000;
+$maxchar_mail=10000;
 
 $whatsapp_chat_url="https://chat.whatsapp.com";
 
