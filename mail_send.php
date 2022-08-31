@@ -41,7 +41,7 @@ writehead();
 
 if(!isset($_GETSAUVE) AND empty($_GET)) {
   write_msgbox("ERREUR", $error_pic, 
-    "Vous venez de recharger la page. Votre message n'a pas été enoyé une 2e fois.
+    "Vous venez de recharger la page. Votre message n'a pas été envoyé une 2e fois.
         <p align=center><a href='index.php'><input type='submit' class='btn btn-primary' value='Retour'></a>",30,0);
   writefoot();
   exit;
