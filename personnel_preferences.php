@@ -53,7 +53,7 @@ if ( $pid <> $id ) {
 }
 
 $user_preferences=[];
-$user_preferences['1']= 1;
+$user_preferences['1']= 0; // tooltips, default off
 $user_preferences['2']='FR';
 $user_preferences['4']='hierarchique';
 $user_preferences['3']=$P_FAVORITE_SECTION;

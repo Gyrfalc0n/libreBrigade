@@ -128,18 +128,18 @@ function writefoot($loadjs=true) {
         if ( ! is_iphone() && ( @$_SESSION['TOOLTIP'] == 1 ) )
             $foot .= " <script>
                     $(document).ready(function(){
-                        $('a.page-link').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('a').tooltip({ placement: '".$placement2."', trigger:'hover' });
-                        $('button').tooltip({ placement: '".$placement2."', trigger:'hover' });
-                        $('input').tooltip({ placement: '".$placement2."', trigger:'hover' });
-                        $('select').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('li').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('i').tooltip({ placement: '".$placement2."', trigger:'hover' });
-                        $('span').tooltip({ placement: '".$placement2."', trigger:'hover' });
-                        $('img').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('option').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('tr').tooltip({ placement: '".$placement."', trigger:'hover' });
-                        $('th').tooltip({ placement: '".$placement2."', trigger:'hover' });
+                        $('a.page-link').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('a').tooltip({ placement: '".$placement2."', delay: 500 });
+                        //$('button').tooltip({ placement: '".$placement2."', delay: 500 });
+                        $('input').tooltip({ placement: '".$placement2."', delay: 500 });
+                        $('select').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('li').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('i').tooltip({ placement: '".$placement2."', delay: 500 });
+                        $('span').tooltip({ placement: '".$placement2."', delay: 500 });
+                        $('img').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('option').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('tr').tooltip({ placement: '".$placement."', delay: 500 });
+                        $('th').tooltip({ placement: '".$placement2."', delay: 500 });//*/
                     });
             </script>";
         if ($chat)
