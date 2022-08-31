@@ -4311,6 +4311,10 @@ table.new-table.table-bordered thead th, table.new-table.table-bordered thead td
   border-radius: .42rem;
 }
 
+td.alert-icon {
+  width: 50px;
+}
+
 .warning-infos-perso-title{
   color: #3F4254;
   font-weight: 600;
