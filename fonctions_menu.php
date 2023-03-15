@@ -276,8 +276,8 @@ function writefoot($loadjs=true) {
                     $(this).find('div.sub-menu').stop();
                     $(this).find('div.sub-menu').fadeIn(1);
                     var howManyScroll = $(window).scrollTop();
-                    console.log('scroll de : ' + howManyScroll);
-                    console.log(offset);
+                    //console.log('scroll de : ' + howManyScroll);
+                    //console.log(offset);
                     This.css('border-right', '1px #D8D8D8 solid');
                     This.find('div.sub-menu').css('display', 'block');
                     This.find('div.sub-menu').css('left', $('.navbar-lateral').outerWidth());
